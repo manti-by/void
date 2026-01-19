@@ -17,8 +17,7 @@ Source link: https://github.com/manti-by/void/
 2. Clone sources, switch to working directory and setup environment:
 
     ```shell
-    git clone git@github.com:manti-by/void.git
-    cd coruscant/
+    git clone git@github.com:manti-by/void.git && cd void/
     uv sync
     ```
 

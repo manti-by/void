@@ -9,9 +9,6 @@ dependencies = [
     "pytest>=9.0.2",
 ]
 
-[tool.setuptools]
-py-modules = []
-
 [tool.pytest.ini_options]
 log_cli = true
 log_cli_format = "%(levelname)s %(asctime)s %(message)s"
@@ -27,14 +24,12 @@ norecursedirs = '''
 '''
 
 [tool.bandit]
-exclude_dirs = []
 skips = ["B101", "B308", "B703"]
 
 [tool.ruff]
 line-length = 120
 indent-width = 4
-target-version = "py313"
-exclude = []
+target-version = "py314"
 
 [tool.ruff.lint]
 select = [
